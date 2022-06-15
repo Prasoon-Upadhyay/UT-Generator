@@ -1,0 +1,146 @@
+body{
+    background-color: #121212;
+}
+
+.col-lg-3{
+    margin: 1%;
+    width: 20%;
+}
+
+.card-body{
+    font-family: 'Overpass Mono', monospace;
+    background-color: #121212;
+}
+
+.card-header{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #121212;
+    color: #DFDFDE;
+    border-bottom: 3px solid #e60073;;
+    animation: border-anim 1s ease-in-out infinite alternate;
+}
+
+.choose-btn{
+    padding:  0.3% 0.7%;
+    font-family: 'Overpass Mono', monospace;
+    background-color: #DFDFDE;
+    border-color: #DFDFDE;
+    color : #121212;
+    transition: 0.4s;;
+}
+
+.choose-btn:hover{
+    color: #DFDFDE;
+    border-color: #DFDFDE;
+    background-color : #121212;
+}
+
+.choose-btn:disabled{
+    color: #413F42;
+    background-color: #7F8487;
+    border-color: #7F8487;
+}
+.btn-col{
+    text-align: center;
+}
+
+
+.overall90{
+    color: #FEF9A7;
+    text-shadow: 0 0 9px #FEF9A7;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.striker{
+    color: #D61C4E;
+    text-shadow: 0 0 9px #D61C4E;
+}
+
+.wing{
+    color: #A91079;
+    text-shadow: 0 0 9px #A91079;
+}
+
+.midfield{
+    color: #1363DF;
+    text-shadow: 0 0 9px #1363DF;
+}
+
+.defender{
+    color: #3EC70B;
+    text-shadow: 0 0 9px #3EC70B;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 25px #FEF9A7, 0 0 30px #FEF9A7,0 0 35px #FEF9A7, 0 0 40px #e60073, 0 0 50px #e60073;
+  }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 25px #F6D860, 0 0 36px #F6D860, 0 0 45px #F6D860, 0 0 50px #F6D860, 0 0 58px #F6D860, 0 0 80px #F6D860;
+      }
+}
+
+.card{
+    border: 3px solid #e60073;;
+    animation: border-anim 1s ease-in-out infinite alternate;
+}
+
+@keyframes border-anim {
+    0%{border-color: #F6D860;}
+    40%{border-color: #D8D2CB;}
+    80%{border-color: #398AB9;}
+    100%{border-color: #e60073;}
+    
+}
+
+.img-div{
+    padding: 2%;
+    text-align: center;
+}
+
+.goalkeeper{
+    color:#DFDFDE ;
+    text-shadow: 0 0 9px #DFDFDE;
+}
+
+h4{
+    font-size: 18px;
+    padding: 2%;
+    color: #FEF9A7;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.player-img{
+    border-radius: 10%;;
+}
+
+.nvbr{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #F4F4F4;
+    cursor: pointer;
+  }
+  
+.heading{
+    text-align: center;
+    padding: 5%;
+    padding-top : 1%;
+    font-size: 50px;
+    animation: header-anim 1s ease-in-out infinite alternate;
+}
+
+@keyframes header-anim {
+    0%{color: #F6D860;}
+    20%{color: #e60073;}
+    40%{color: crimson;}
+    60%{color: coral;}
+    80%{color: #FEF9A7;}
+    100%{color: #F6D860;}
+    
+}
